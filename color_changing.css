@@ -1,0 +1,19 @@
+/*we made this file to make a box which will contain colors and content of file named color_changer_2.html*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#colorChanger {
+    width: 300px; /* Adjust the width as needed */
+    margin: 50px auto; /* Center the box */
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    transition: background-color 0.5s; /* Smooth transition for background color changes */
+}
+
+#colorChanger p {
+    margin: 10px 0;
+}
